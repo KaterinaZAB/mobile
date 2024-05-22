@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input3"
+        android:layout_width="269dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="любимый сериал"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/input2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input2"
+        app:layout_constraintTop_toBottomOf="@+id/input2" />
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="270dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="164dp"
+        android:ems="10"
+        android:hint="номер группы"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="269dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="номер по списку"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/input1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input1"
+        app:layout_constraintTop_toBottomOf="@+id/input1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="209dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="44dp"
+        android:text="Сохранить"
+        app:layout_constraintEnd_toEndOf="@+id/input3"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="@+id/input3"
+        app:layout_constraintTop_toBottomOf="@+id/input3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

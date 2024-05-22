@@ -7,72 +7,90 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:text="Имя: "
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="410dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="39dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="36dp"
         android:text="Пол:"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="478dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="185dp"
-        android:layout_height="38dp"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="76dp"
         android:ems="10"
         android:inputType="text"
         android:text="Name"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="398dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="181dp"
         android:layout_height="51dp"
+        android:layout_marginBottom="60dp"
         android:text="Сохранить"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="626dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="62dp"
         android:layout_height="48dp"
-        android:layout_marginTop="66dp"
+        android:layout_marginBottom="108dp"
         android:text="Ж"
-        app:layout_constraintTop_toTopOf="@+id/editTextText"
-        tools:layout_editor_absoluteX="130dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:ignore="DuplicateIds" />
 
     <CheckBox
-        android:id="@+id/checkBox"
         android:layout_width="65dp"
         android:layout_height="48dp"
-        android:layout_marginTop="66dp"
+        android:layout_marginBottom="108dp"
         android:text="М"
-        app:layout_constraintTop_toTopOf="@+id/editTextText"
-        tools:layout_editor_absoluteX="211dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="416dp"
         android:layout_height="275dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="185dp"
-        android:layout_height="183dp"
+        android:id="@+id/foto"
+        android:layout_width="213dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="184dp"
+        android:contentDescription="Avatar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="191dp"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+
+    <TextView
+        android:id="@+id/textViewBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Любимая книга разработчика:" />
+
+    <EditText
+        android:id="@+id/editTextBookTitle"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBook"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Введите название вашей любимой книги" />
+
+    <Button
+        android:id="@+id/sendMessageBack"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_below="@id/editTextBookTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="97dp"
+        android:text="Отправить" />
+
+</RelativeLayout>

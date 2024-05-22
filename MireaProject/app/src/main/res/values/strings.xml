@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MireaProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Authentication failed</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="brouser">WebViewFragment</string>
+    <string name="data">DataFragment</string>
+    <string name="backtask">BackgroundTask</string>
+    <string name="compass">Compass</string>
+    <string name="camera">Camera</string>
+    <string name="microphone">Microphone</string>
+
+    <string name="profile">Profile</string>
+    <string name="fileFragment">Конвертировать файл</string>
+    <string name="add_file">Добавить файл</string>
+    <string name="net">Новости для заметок</string>
+
+    <string name="map">Карта с заведениями</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "63472279512",
+    "project_id": "practice7-c3bcc",
+    "storage_bucket": "practice7-c3bcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63472279512:android:def89ebf900d4237969cad",
+        "android_client_info": {
+          "package_name": "ru.mirea.zubarevaes.a3firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCM9kQotDZX4dOLgAV2JXVM776MH2KAPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63472279512:android:4c5b84cc73411949969cad",
+        "android_client_info": {
+          "package_name": "ru.mirea.zubarevaes.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCM9kQotDZX4dOLgAV2JXVM776MH2KAPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

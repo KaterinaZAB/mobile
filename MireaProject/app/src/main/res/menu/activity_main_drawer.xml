@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/brouserFragment"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="@string/brouser" />
+        <item
+            android:id="@+id/dataFragment"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/data" />
+        <item
+            android:id="@+id/backgroundTask"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="@string/backtask" />
+        <item
+            android:id="@+id/compassFragment"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/compass" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/microphoneFragment"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="@string/microphone" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/fileFragment"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="@string/fileFragment" />
+        <item
+            android:id="@+id/netFragment"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/net" />
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@drawable/navto_small"
+            android:title="@string/map" />
+    </group>
+</menu>

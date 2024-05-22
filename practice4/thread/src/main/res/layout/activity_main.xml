@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/par"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/buttonCount"
+        android:layout_width="256dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="40dp"
+        android:text="Узнать"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countDays" />
+
+    <EditText
+        android:id="@+id/countPar"
+        android:layout_width="294dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="пары"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/par"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/par"
+        app:layout_constraintTop_toBottomOf="@+id/par" />
+
+    <EditText
+        android:id="@+id/countDays"
+        android:layout_width="295dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="дни"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/countPar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/countPar"
+        app:layout_constraintTop_toBottomOf="@+id/countPar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
