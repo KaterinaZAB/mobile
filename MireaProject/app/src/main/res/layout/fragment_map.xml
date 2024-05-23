@@ -5,13 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".ui.OSMMaps.MapFragment">
 
-    <org.osmdroid.views.MapView android:id="@+id/mapView"
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="630dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="679dp"
+        android:layout_height="633dp"
         android:orientation="vertical">
 
         <ImageView

@@ -43,7 +43,7 @@ import java.util.List;
 import ru.mirea.zubarevaes.yandexdriver.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity  implements DrivingSession.DrivingRouteListener  {
-    private boolean task = true; // для задания
+    private boolean task = true;
     private boolean isWork = false;
     private static final int REQUEST_CODE_PERMISSION = 100;
     private /*final*/ Point ROUTE_START_LOCATION = new Point(55.670005, 37.479894);
@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity  implements DrivingSession.D
         // Ининциализируем объект для создания маршрута водителя
         drivingRouter = DirectionsFactory.getInstance().createDrivingRouter();
         mapObjects = mapView.getMap().getMapObjects().addCollection();
-//        submitRequest();
 
         int	coarsePermissionStatus = ContextCompat.checkSelfPermission(this,
                 android.Manifest.permission.ACCESS_COARSE_LOCATION);
@@ -81,12 +80,7 @@ public class MainActivity extends AppCompatActivity  implements DrivingSession.D
         int backgroundPermissionStatus = ContextCompat.checkSelfPermission(this,
                 android.Manifest.permission.ACCESS_BACKGROUND_LOCATION);
         if	(coarsePermissionStatus == PackageManager.PERMISSION_GRANTED &&
-                finePermissionStatus ==	PackageManager.PERMISSION_GRANTED /*&&
-                backgroundPermissionStatus == PackageManager.PERMISSION_GRANTED
-                если включить, то ничего не отобразится
-                только если вывести в отдельный if и вызывать метод отдельно для него
-                работает только при отладке (попаду в меню разрешений),
-                иначе ничего не происходит*/) {
+                finePermissionStatus ==	PackageManager.PERMISSION_GRANTED) {
             isWork = true;
         } else {
             //	Выполняется запрос к пользователю на получение необходимых разрешений
@@ -144,11 +138,11 @@ public class MainActivity extends AppCompatActivity  implements DrivingSession.D
         for (int i = 0; i < list.size(); i++) {
             // настроиваем цвета для каждого маршрута
             color = colors[i];
-            // добавляем маршрут на карту
+            // добавление маршрута на карту
             mapObjects.addPolyline(list.get(i).getGeometry()).setStrokeColor(color);
         }
 
-        // (задание) для маркера
+        // задание для маркера
         if (task) {
             PlacemarkMapObject marker = mapView.getMap().getMapObjects().addPlacemark(ROUTE_END_LOCATION,
                     ImageProvider.fromResource(this, com.yandex.maps.mobile.R.drawable.search_layer_pin_selected_default));
