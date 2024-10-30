@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686293027100",
+    "project_id": "touragency-71b5b",
+    "storage_bucket": "touragency-71b5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686293027100:android:6e70280b8d921801f312d9",
+        "android_client_info": {
+          "package_name": "ru.mirea.zubarevaes.touragency"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd7yB2yRfrMr8G43CJy9oPyDOtgdOi5jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
