@@ -1,4 +1,8 @@
-<<<<<<< HEAD
-=======
+БСБО-11-21
+Зубарева Екатерина
+Разрабатываю мобильное приложение турагенства
 
->>>>>>> 1269351131cbd29612937da79b2bd393a283aa6a
+![image](https://github.com/user-attachments/assets/8387cbe0-6e22-4adc-a2de-0434a81df2cd)
+
+![Uploading image.png…]()
+
